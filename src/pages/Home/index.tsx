@@ -4,12 +4,14 @@ import { Badge } from "@/components/ui/badge";
 import CountBtn from "@/components/CountBtn";
 import ReactSVG from "@/assets/react.svg";
 import PageWrapper from "@/layouts/PageWrapper";
+import Navbar from "@/components/navbar/navbar";
 
 
 const Home = () => {
   return (
     <PageWrapper title="Home">
-      <div className="flex flex-col items-center justify-center h-screen">
+      <Navbar />
+      <div className=" flex flex-col items-center justify-center h-screen bg-background">
         <div className="flex flex-col items-center gap-y-4">
           <div className="inline-flex items-center gap-x-4">
             <img src={ReactSVG} alt="React Logo" className="w-32" />

@@ -31,7 +31,7 @@ const Login = () => {
     <PageWrapper title="Login">
       <div className="flex flex-col items-center justify-center h-screen">
         <div className="flex w-full h-full">
-          <div className="relative w-1/2 h-full bg-[#C80909]">
+          <div className="relative w-1/2 h-full bg-secondary">
             <img src={AccentSVG} alt="Accent Graphic" className="absolute inset-0 w-full h-full object-cover" />{" "}
             {/* <img src={AccentSVG} alt="Accent Graphic" className="absolute inset-0 w-full h-full object-cover" />{" "}
             <img src={AccentSVG} alt="Accent Graphic" className="absolute inset-0 w-full h-full object-cover" />{" "} */}
